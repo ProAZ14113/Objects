@@ -102,15 +102,13 @@ console.log(createStudent("Sam", 10, 2.9));
 //   findByName(students, "ChenZee") → { name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false }
 //   findByName(students, "Marcus")  → null
 
+
+const student = 
+    {name: ChenZee, grade: 12, gpa: 3.5, isHonors: false}
+
+
 function findByName(students, targetName) {
-  let name = 
-  if (students, name === 7)
-  return Chenzee = {
-    name: targetName,
-    grade: 12,
-    gpa: 3.5,
-    isHonors: false
-  }
+  const foundstudent = students.find (name === ChenZee)
 }
 
 console.log(findByName(students, "ChenZee"));
