@@ -92,7 +92,7 @@ console.log(createStudent("Sam", 10, 2.9));
 
 
 // =================================================================
-// PROBLEM 3 — Searching an Array of Objects
+// PROBLEM 3 — Searching an Array of Objects - NOT COMPLETED BCSE IT TO HARD :(
 // =================================================================
 // Write a function findByName(students, targetName) that:
 //   - Uses .find() to return the student object with that name
@@ -101,16 +101,51 @@ console.log(createStudent("Sam", 10, 2.9));
 // Expected output:
 //   findByName(students, "ChenZee") → { name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false }
 //   findByName(students, "Marcus")  → null
-
+/* 
 
 const student = 
     {name: ChenZee, grade: 12, gpa: 3.5, isHonors: false}
 
 
 function findByName(students, targetName) {
-  const foundstudent = students.find (name === ChenZee)
+  find = targetName.find  = students.find (students === targetName)
+    if(find === ChenZee)
+        return(student)
+    if(find === undefined)
+        return("null")
 }
 
 console.log(findByName(students, "ChenZee"));
 console.log(findByName(students, "Jane"));
 console.log(findByName(students, "Marcus"));
+ */
+
+
+
+
+// =================================================================
+// PROBLEM 4 — Roster Report
+// =================================================================
+// Write a function printRoster(students) that uses .forEach() to
+// print each student in this format:
+//
+//   [Grade 11] Jane — GPA: 3.8 ★
+//   [Grade 12] ChenZee — GPA: 3.5
+//   [Grade 10] Dakota — GPA: 3.9 ★
+//
+// The ★ appears only if isHonors is true.
+// Try solving without the honors first THEN try the star
+
+const Sclstdnt = {
+  Grade: 11, name: Jane, GPA: 3.8, isHonors: true,
+  Grade: 12, name: ChenZee, GPA: 3.5, isHonors: false,
+  Grade: 10, name: Dakota, GPA: 3.9, isHonors: true
+}
+function printRoster(students) {
+  students.forEach(Sclstdnt)
+    return([Grade], name - (GPA), isHonors)
+}
+
+
+console.log(Jane);
+printRoster(students);
