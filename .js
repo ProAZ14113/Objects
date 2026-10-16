@@ -1,9 +1,9 @@
-const students = [
+/* const students = [
   { name: "Jane", grade: 11, gpa: 3.8, isHonors: true },
   { name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false },
   { name: "Dakota", grade: 10, gpa: 3.9, isHonors: true },
 ];
-
+ */
 // =================================================================
 // PROBLEM 1 — Reading Object Properties
 // =================================================================
@@ -101,18 +101,15 @@ console.log(createStudent("Sam", 10, 2.9));
 // Expected output:
 //   findByName(students, "ChenZee") → { name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false }
 //   findByName(students, "Marcus")  → null
-/* 
 
-const student = 
-    {name: ChenZee, grade: 12, gpa: 3.5, isHonors: false}
+
+/* const students = 
+    [{name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false}];
 
 
 function findByName(students, targetName) {
-  find = targetName.find  = students.find (students === targetName)
-    if(find === ChenZee)
-        return(student)
-    if(find === undefined)
-        return("null")
+    return students.find(student => student.name === targetName) || null
+  
 }
 
 console.log(findByName(students, "ChenZee"));
@@ -133,19 +130,19 @@ console.log(findByName(students, "Marcus"));
 //   [Grade 12] ChenZee — GPA: 3.5
 //   [Grade 10] Dakota — GPA: 3.9 ★
 //
-// The ★ appears only if isHonors is true.
+//* / The ★ appears only if isHonors is true.
 // Try solving without the honors first THEN try the star
 
-const Sclstdnt = {
-  Grade: 11, name: Jane, GPA: 3.8, isHonors: true,
-  Grade: 12, name: ChenZee, GPA: 3.5, isHonors: false,
-  Grade: 10, name: Dakota, GPA: 3.9, isHonors: true
-}
+ const student = [{
+  Grade: 11, name: "Jane", GPA: 3.8, isHonors: true,
+  Grade: 12, name: "ChenZee", GPA: 3.5, isHonors: false,
+  Grade: 10, name: "Dakota", GPA: 3.9, isHonors: true
+}]
+
 function printRoster(students) {
-  students.forEach(Sclstdnt)
-    return([Grade], name - (GPA), isHonors)
+  student.forEach((element) => console.log(element));
 }
 
 
-console.log(Jane);
-printRoster(students);
+
+console.log(printRoster(students)) 
