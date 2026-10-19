@@ -140,7 +140,7 @@ console.log(findByName(students, "Marcus"));
 }]
 
 function printRoster(students) {
-  student.forEach((element) => console.log(element));
+  student.forEach((students) => console.log(students));
 }
 
 
