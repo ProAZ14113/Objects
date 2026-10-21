@@ -184,3 +184,28 @@ const BrawlStars = [
 
 ]
 
+const S = BrawlStars.filter (BrawlStars => BrawlStars.rank === "S")
+console.log(S)
+const A = BrawlStars.filter (BrawlStars => BrawlStars.rank === "A")
+console.log(A)
+const B = BrawlStars.filter (BrawlStars => BrawlStars.rank === "B")
+console.log(B)
+const C = BrawlStars.filter (BrawlStars => BrawlStars.rank === "C")
+console.log(C)
+const D = BrawlStars.filter (BrawlStars => BrawlStars.rank === "D")
+console.log(D)
+
+
+function cartprice(BrawlerName, Quantity){
+    let total = 0;
+    BrawlStars.locate(BrawlerName(BrawlStars.name.price)) === P
+    BrawlStars.locate(BrawlerName(BrawlStars.name.quantity)) === Q
+
+    for (let x = 0;Quanity > Q, Quantity - Q;){
+        total = Q * P
+    }
+
+    if (Quantity <= 0)
+        return(total) 
+}
+console.log(cart(Edger, 2))
