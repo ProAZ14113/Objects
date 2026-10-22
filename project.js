@@ -198,8 +198,8 @@ console.log(D)
 
 function cartprice(BrawlerName, Quantity){
     let total = 0;
-    BrawlStars.locate(BrawlerName(BrawlStars.name.price)) === P
-    BrawlStars.locate(BrawlerName(BrawlStars.name.quantity)) === Q
+    BrawlStars.find(BrawlerName(BrawlStars.name.price)) = P
+    BrawlStars.find(BrawlerName(BrawlStars.name.quantity)) = Q
 
     for (let x = 0;Quanity > Q, Quantity - Q;){
         total = Q * P
